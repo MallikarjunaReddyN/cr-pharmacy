@@ -21,7 +21,7 @@ const Navbar = () => {
           <p className="text-[#00a69c] text-3xl font-bold mt-2 md:block hidden">CR Pharmacy</p>
         </div>
         <div className="flex items-center mr-3 md:mr-10 mt-2">
-          <a href="#" rel="noreferrer" target="_blank" className="hidden md:block mr-3">
+          <a href="https://maps.google.com/maps/place//data=!4m2!3m1!1s0x3bcb8d7c1f4e21eb:0x30af8f0ae7e5054a?entry=s&sa=X&ved=2ahUKEwiD9MH3t5KEAxUngFYBHT5tDf8Q4kB6BAgREAA&hl=en-GB" rel="noreferrer" target="_blank" className="hidden md:block mr-3">
             <div className="min-w-[2rem] font-bold min-h-[3rem] flex items-center justify-center text-white bg-[#00a69c] px-5 rounded-lg">
               <ion-icon name="location"></ion-icon><span className="md:block hidden">&nbsp; Location</span>
             </div>
