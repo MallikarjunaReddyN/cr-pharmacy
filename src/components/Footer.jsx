@@ -10,7 +10,7 @@ const Footer = () => {
           Copyright © 2024 Chandu Reddy N. All Rights reserved.
         </div>
          <div className="flex items-center mr-3 md:mr-10 mt-2">
-          <a href="#" rel="noreferrer" target="_blank" className="hidden md:block mr-3">
+          <a href="#" rel="noreferrer" target="_blank" className="mr-3">
             <div className="min-w-[2rem] font-bold min-h-[3rem] flex items-center justify-center text-white bg-[#00a69c] px-5 rounded-lg">
               <ion-icon name="location"></ion-icon><span>&nbsp; Location</span>
             </div>
