@@ -17,7 +17,7 @@ const Footer = () => {
               <li key={i} className="px-3 text-white">
                 <a href={menu?.link} rel= "noreferrer" target="_blank">
                   <div className="min-w-[2rem] font-bold min-h-[3rem] flex items-center justify-center text-white bg-[#00a69c] px-5 rounded-lg">
-                    <ion-icon name={menu.icon}></ion-icon><span className="md:block hidden">&nbsp; {menu.name}</span>
+                    <ion-icon name={menu.icon}></ion-icon><span className="">&nbsp; {menu.name}</span>
                   </div>
                 </a>
               </li>
