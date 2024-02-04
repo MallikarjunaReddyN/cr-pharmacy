@@ -9,20 +9,17 @@ const Footer = () => {
         <div className="text-sm p-4 text-center text-white">
           Copyright © 2024 Chandu Reddy N. All Rights reserved.
         </div>
-        <div
-          className={`sm:mr-[-25px] md:mr-[0px] px-7 py-2`}
-        >
-          <ul className="flex items-center py-2">
-            {menuLinks?.map((menu, i) => (
-              <li key={i} className="px-3 text-white">
-                <a href={menu?.link} rel= "noreferrer" target="_blank">
-                  <div className="min-w-[2rem] font-bold min-h-[3rem] flex items-center justify-center text-white bg-[#00a69c] px-5 rounded-lg">
-                    <ion-icon name={menu.icon}></ion-icon><span className="">&nbsp; {menu.name}</span>
-                  </div>
-                </a>
-              </li>
-            ))}
-          </ul>
+         <div className="flex items-center mr-3 md:mr-10 mt-2">
+          <a href="#" rel="noreferrer" target="_blank" className="hidden md:block mr-3">
+            <div className="min-w-[2rem] font-bold min-h-[3rem] flex items-center justify-center text-white bg-[#00a69c] px-5 rounded-lg">
+              <ion-icon name="location"></ion-icon><span className="md:block hidden">&nbsp; Location</span>
+            </div>
+          </a>
+          <a href="https://wa.me/9676907047" rel="noreferrer" target="_blank">
+            <div className="min-w-[2rem] font-bold min-h-[3rem] flex items-center justify-center text-white bg-[#00a69c] px-5 rounded-lg">
+              <ion-icon name="logo-whatsapp"></ion-icon><span>&nbsp; 9676907047</span>
+            </div>
+          </a>
         </div>
       </div>
     </div>
