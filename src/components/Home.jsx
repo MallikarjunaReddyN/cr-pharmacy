@@ -21,10 +21,10 @@ const Home = () => {
           <h4 className="md:text-xl text-lg md:leading-normal leading-5 mt-4 font-bold text-gray-500">
           Medicines may cure, but only pharmacists can care.
           </h4>
-          <AnchorLink href="#contact"><button className="btn-primary mt-8">Contact Me</button></AnchorLink>
+          <AnchorLink href="#"><button className="btn-primary mt-8">Location</button></AnchorLink>
         </div>
       </div>
-      <div className="absolute shadow-xl bottom-[-10px] md:bottom-10 md:left-[400px]">
+      <div className="absolute shadow-xl bottom-[-30px] md:bottom-10 md:left-[400px]">
       <img src={discount} alt="" className="w-full h-full object-cover" />
       </div>
     </section>
