@@ -13,7 +13,7 @@ const Delivery = () => {
                 <div className="md:text-left text-center mt-[100px]">
                     <h1 className="md:text-5xl text-2xl md:leading-normal leading-10 text-white font-bold">
                         <span className="text-[#00a69c] md:text-6xl text-4xl">
-                            Better Health, <br />Delivered to Your Door &nbsp;<span><ion-icon name="bicycle-outline"></ion-icon></span>
+                            Medicine at Your Door, <br />Free Delivery Every Time &nbsp;<span><ion-icon name="bicycle-outline"></ion-icon></span>
                             <br />
                         </span>
                     </h1>
