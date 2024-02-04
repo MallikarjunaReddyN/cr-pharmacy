@@ -24,7 +24,7 @@ const Home = () => {
           <AnchorLink href="#"><button className="btn-primary mt-8">Location</button></AnchorLink>
         </div>
       </div>
-      <div className="absolute shadow-xl bottom-[-30px] md:bottom-10 md:left-[400px]">
+      <div className="absolute shadow-xl bottom-[-45px] md:bottom-10 md:left-[400px]">
       <img src={discount} alt="" className="w-full h-full object-cover" />
       </div>
     </section>
