@@ -21,7 +21,7 @@ const Home = () => {
           <h4 className="md:text-xl text-lg md:leading-normal leading-5 mt-4 font-bold text-gray-500">
           Medicines may cure, but only pharmacists can care.
           </h4>
-          <a href="https://maps.google.com/maps/place//data=!4m2!3m1!1s0x3bcb8d7c1f4e21eb:0x30af8f0ae7e5054a?entry=s&sa=X&ved=2ahUKEwiD9MH3t5KEAxUngFYBHT5tDf8Q4kB6BAgREAA&hl=en-GB" target="_blank"><button className="btn-primary mt-8">Location</button></AnchorLink>
+          <a href="https://maps.google.com/maps/place//data=!4m2!3m1!1s0x3bcb8d7c1f4e21eb:0x30af8f0ae7e5054a?entry=s&sa=X&ved=2ahUKEwiD9MH3t5KEAxUngFYBHT5tDf8Q4kB6BAgREAA&hl=en-GB" target="_blank"><button className="btn-primary mt-8">Location</button></a>
         </div>
       </div>
       <div className="absolute shadow-xl bottom-[-55px] md:bottom-10 md:left-[400px]">
